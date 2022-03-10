@@ -8,18 +8,18 @@ exports.limitend = (pushname) => {
 	return`Maaf ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
+	return` ⁉️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
-	return` Lu udah daftar 😒`
+	return` Lu udah daftar 🗿`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 	return` *PENDAFTARAN BERHASIL*
 
-• Nama : ${pushname}
-• Nomor : ${sender.split("@")[0]}
-• Waktu : ${time}
-• Serial : ${serialUser}
+• 👥Nama : ${pushname}
+• 📞Nomor : ${sender.split("@")[0]}
+• 🌍Waktu : ${time}
+• 📃Serial : ${serialUser}
 
 Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
 fitur bot.
@@ -42,7 +42,7 @@ exports.group = () =>{
 	}
 
 exports.wait = () =>{
-	return`⏳ Sedang di proses ~`
+	return`⏳ Sabar bwang ~`
 	}
 exports.ok = () =>{
 	return` ✅ Oke done ~`
@@ -58,7 +58,7 @@ exports.welcome = () =>{
 exports.leave = () =>{
 	return`
 │
-╰─ ᝬ _Balik Lagi Wajib Donasi Ya_ >_<`
+╰─ ᝬ _Beban Group Telah Keluar byee_ >_<`
 }
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
@@ -88,7 +88,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │
 ├ *Convert*
 │ • ${prefix}stiker [video/image]
-│ • ${prefix}semoji 😎
+│ • ${prefix}semoji 🗿
 │ • ${prefix}smeme [text]
 │ • ${prefix}memegen [text|text2]
 │ • ${prefix}fast [video/vn]
