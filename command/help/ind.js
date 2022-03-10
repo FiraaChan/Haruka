@@ -19,7 +19,7 @@ exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 • 👥Nama : ${pushname}
 • 📞Nomor : ${sender.split("@")[0]}
 • 🌍Waktu : ${time}
-• 📃Serial : ${serialUser}
+• 🗒️Serial : ${serialUser}
 
 Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
 fitur bot.
@@ -32,7 +32,7 @@ exports.admin = (groupName) =>{
 	return`🙅‍♀️ Command khusus admin ${groupName}`
 	}
 exports.adminB = () =>{
-	return`⚠️ Bot bukan admin grup`
+	return`🗣️ Bot bukan admin grup`
 	}
 exports.err = () =>{
 	return`⚠️ Fitur ini sedang eror !`
@@ -45,7 +45,7 @@ exports.wait = () =>{
 	return`⏳ Sabar bwang ~`
 	}
 exports.ok = () =>{
-	return` ✅ Oke done ~`
+	return` ✅ Done Bwang ~`
 	}
 exports.welcome = () =>{
 	return`Jangan Lupa Intro Ya~
@@ -63,12 +63,12 @@ exports.leave = () =>{
 exports.menu = (prefix, salam, pushname) =>{
 	return`Hi ${pushname}, selamat ${salam}
 
-╭─⬣ *List Menu*
+╭─⬣ *List Menu* 🌷
 │ • ${prefix}menu
 │ • ${prefix}help
 │ • ${prefix}haruka
 │
-├ *Download*
+├ *Download* 💾
 │ • ${prefix}play [query]
 │ • ${prefix}song [judul lagu]
 │ • ${prefix}pinterest [query]
@@ -86,7 +86,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}nhentaipdf [code]
 │ • ${prefix}nhentaisearch [query]
 │
-├ *Convert*
+├ *Convert* 🌱
 │ • ${prefix}stiker [video/image]
 │ • ${prefix}semoji 🗿
 │ • ${prefix}smeme [text]
@@ -99,13 +99,13 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}bass [video/vn]
 │ • ${prefix}nightcore [video/vn]
 │
-├ *Education*
+├ *Education* 📝
 │ • ${prefix}nuliskiri [text]
 │ • ${prefix}nuliskanan [text]
 │ • ${prefix}foliokiri [text]
 │ • ${prefix}foliokanan [text]
 │
-├ *Islamic*
+├ *Islamic* 🕋
 │ • ${prefix}listsurah
 │ • ${prefix}alquran
 │ • ${prefix}asmaulhusna
@@ -113,7 +113,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}alquranaudio
 │ • ${prefix}jadwalsholat
 │
-├ *For wibu*
+├ *For wibu* 🌸
 │ • ${prefix}nami 
 │ • ${prefix}copper 
 │ • ${prefix}naruto  
@@ -139,7 +139,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}nezuko 
 │ • ${prefix}senku
 │
-├ *Maker Ephoto360*
+├ *Maker Ephoto360* 📸
 │ • ${prefix}wetglass
 │ • ${prefix}multicolor3d
 │ • ${prefix}watercolor
@@ -217,7 +217,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}otakudesu [query]
 │ • ${prefix}otakudesusearch [query] 
 │
-├ *Random text*
+├ *Random text* 📖
 │ • ${prefix}pantun 
 │ • ${prefix}puisi 
 │ • ${prefix}bucinquote 
@@ -243,11 +243,11 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • ${prefix}animequote2
 │ • ${prefix}trumpthink
 │
-├ *Info*
+├ *Info* 🤖
 │ • ${prefix}owner
 │ • ${prefix}daftar
 │
-├ *Owner*
+├ *Owner* 🧕
 │ • ${prefix}broadcast [text]
 │ • ${prefix}leave
 │ • ${prefix}antidelete [on/off]
@@ -256,7 +256,7 @@ exports.menu = (prefix, salam, pushname) =>{
 │ • $
 │ •  => 
 │
-├ *Group*
+├ *Group* 🏢
 │ • ${prefix}sider [reply pesan bot]
 │ • ${prefix}listonline
 │ • ${prefix}delete [reply pesan bot]
